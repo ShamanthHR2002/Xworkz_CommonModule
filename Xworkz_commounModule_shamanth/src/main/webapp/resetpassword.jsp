@@ -17,7 +17,7 @@
       background-color: #fff;
       color: #495057;
       border-radius: 10px;
-      padding: 20px;
+      padding: 30px;
       box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     }
 
@@ -31,6 +31,7 @@
       background-color: #2575fc;
       border: none;
       font-weight: bold;
+      padding: 12px 0;
     }
 
     .btn-primary:hover {
@@ -87,9 +88,10 @@
         <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm new password" class="form-control" required>
       </div>
 
-      <button type="submit" class="btn btn-primary">Reset Password</button>
+      <button type="submit" class="btn btn-primary btn-lg">Reset Password</button>
     </form>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
